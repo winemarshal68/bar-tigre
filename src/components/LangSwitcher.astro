@@ -1,0 +1,33 @@
+---
+interface Props {
+  lang: 'es' | 'en' | 'fr';
+  page: 'home' | 'menu' | 'contact';
+}
+
+const { lang, page } = Astro.props;
+
+const urls: Record<string, Record<string, string>> = {
+  home:    { es: '/',          en: '/en/',         fr: '/fr/'         },
+  menu:    { es: '/menu',      en: '/en/menu',     fr: '/fr/menu'     },
+  contact: { es: '/contacto',  en: '/en/contact',  fr: '/fr/contact'  },
+};
+
+const labels = { es: 'ES', en: 'EN', fr: 'FR' };
+const langs: Array<'es' | 'en' | 'fr'> = ['es', 'en', 'fr'];
+---
+
+<div class="flex items-center gap-1 text-xs font-semibold tracking-wider">
+  {langs.map((l, i) => (
+    <>
+      {i > 0 && <span class="text-tile opacity-50">·</span>}
+      {l === lang ? (
+        <span class="text-gold">{labels[l]}</span>
+      ) : (
+        <a href={urls[page][l]}
+           class="text-cream/60 hover:text-gold transition-colors duration-150">
+          {labels[l]}
+        </a>
+      )}
+    </>
+  ))}
+</div>

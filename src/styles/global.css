@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-espresso;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+
+@layer components {
+  /* Hero background - warm espresso with tile texture overlay */
+  .hero-bg {
+    background-color: #1a0a06;
+    background-image:
+      radial-gradient(ellipse at 20% 50%, rgba(139, 26, 26, 0.35) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 20%, rgba(201, 151, 90, 0.15) 0%, transparent 50%),
+      url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9975a' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  /* Section with warm parchment + subtle cross-hatch */
+  .section-warm {
+    background-color: #f5efe6;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c9975a' fill-opacity='0.05'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  /* Dark section (features) */
+  .section-dark {
+    background-color: #2c1810;
+    background-image:
+      url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9975a' fill-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .btn-primary {
+    @apply inline-block bg-oxblood text-cream px-6 py-3 font-semibold tracking-wide hover:bg-rust transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2;
+  }
+
+  .btn-outline-light {
+    @apply inline-block border-2 border-cream text-cream px-6 py-3 font-semibold tracking-wide hover:bg-cream hover:text-espresso transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gold;
+  }
+
+  .btn-outline-dark {
+    @apply inline-block border-2 border-oxblood text-oxblood px-6 py-3 font-semibold tracking-wide hover:bg-oxblood hover:text-cream transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-oxblood;
+  }
+
+  .section-title {
+    @apply font-serif text-3xl md:text-4xl text-oxblood mb-4 leading-tight;
+  }
+
+  .section-title-light {
+    @apply font-serif text-3xl md:text-4xl text-cream mb-4 leading-tight;
+  }
+
+  /* Decorative rule — old newspaper feel */
+  .ornament {
+    @apply flex items-center gap-3 text-gold text-sm tracking-widest uppercase mb-6;
+  }
+  .ornament::before, .ornament::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.5;
+  }
+
+  /* Menu tab button */
+  .menu-tab {
+    @apply px-4 py-2 text-sm font-semibold border-b-2 border-transparent text-mahogany hover:text-oxblood hover:border-gold transition-colors duration-150 whitespace-nowrap;
+  }
+  .menu-tab.active {
+    @apply text-oxblood border-oxblood;
+  }
+}

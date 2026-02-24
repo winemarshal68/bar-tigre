@@ -1,0 +1,137 @@
+---
+import menuData from '../../menu_es.json';
+
+interface Props {
+  lang: 'es' | 'en' | 'fr';
+  sectionLabels: Record<string, string>;
+  note: string;
+  subtitle: string;
+}
+
+const { lang, sectionLabels, note, subtitle } = Astro.props;
+
+// --- Build grouped structure: section -> subsection -> items[]
+type MenuItem = typeof menuData.items[0];
+type SubMap = Record<string, MenuItem[]>;
+type SectionMap = Record<string, SubMap>;
+
+const grouped: SectionMap = {};
+const sectionOrder: string[] = [];
+
+for (const item of menuData.items) {
+  const sec = item.section ?? 'Otros';
+  const sub = item.subsection ?? '__default__';
+  if (!grouped[sec]) {
+    grouped[sec] = {};
+    sectionOrder.push(sec);
+  }
+  if (!grouped[sec][sub]) grouped[sec][sub] = [];
+  grouped[sec][sub].push(item);
+}
+
+// Readable section label helper
+function sectionLabel(key: string): string {
+  return sectionLabels[key] ?? key;
+}
+
+// Portion label helper (keep in Spanish — it's on menus internationally)
+const portionMap: Record<string, string> = {
+  media: lang === 'fr' ? 'demi' : lang === 'en' ? 'half' : 'media',
+  ración: lang === 'fr' ? 'portion' : lang === 'en' ? 'full' : 'ración',
+  unidad: lang === 'fr' ? 'unité' : lang === 'en' ? 'unit' : 'unidad',
+  copa: lang === 'fr' ? 'verre' : lang === 'en' ? 'glass' : 'copa',
+  botella: lang === 'fr' ? 'bouteille' : lang === 'en' ? 'bottle' : 'botella',
+  jarra: lang === 'fr' ? 'pichet' : lang === 'en' ? 'jug' : 'jarra',
+  caña: 'caña',
+  tercio: 'tercio',
+};
+
+function portionLabel(p: string | null | undefined): string {
+  if (!p) return '';
+  return portionMap[p.toLowerCase()] ?? p;
+}
+
+// Format price
+function formatPrice(p: number | null | undefined): string {
+  if (p == null) return '';
+  return `${p.toFixed(2).replace('.', ',')} €`;
+}
+---
+
+<div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+
+  <!-- Page header -->
+  <div class="text-center mb-10">
+    <div class="ornament justify-center text-oxblood/60 mb-4">{subtitle}</div>
+    <p class="text-sm text-mahogany/60 italic">{note}</p>
+  </div>
+
+  <!-- Section tabs (scrollable on mobile) -->
+  <div class="border-b border-tile mb-8 overflow-x-auto -mx-4 px-4">
+    <div class="flex gap-0 min-w-max" id="menu-tabs">
+      {sectionOrder.map((sec, i) => (
+        <button
+          class={`menu-tab ${i === 0 ? 'active' : ''}`}
+          data-section={`sec-${i}`}
+          type="button">
+          {sectionLabel(sec)}
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <!-- Section panels -->
+  {sectionOrder.map((sec, i) => (
+    <div id={`sec-${i}`} class={`menu-panel ${i !== 0 ? 'hidden' : ''}`}>
+      {Object.entries(grouped[sec]).map(([sub, items]) => (
+        <div class="mb-8">
+          {/* Subsection heading */}
+          {sub !== '__default__' && (
+            <h3 class="text-oxblood font-serif text-xl mb-4 pb-2 border-b border-tile/60">
+              {sectionLabel(sub)}
+            </h3>
+          )}
+          {/* Item list */}
+          <ul class="divide-y divide-tile/40">
+            {items.map((item) => (
+              <li class="py-3 flex items-baseline justify-between gap-4">
+                <div class="flex-1 min-w-0">
+                  <span class="font-medium text-mahogany">{item.name_es}</span>
+                  {item.portion && (
+                    <span class="ml-2 text-xs text-mahogany/50 italic">
+                      ({portionLabel(item.portion)})
+                    </span>
+                  )}
+                  {item.notes && (
+                    <p class="text-xs text-mahogany/50 mt-0.5 truncate">{item.notes}</p>
+                  )}
+                </div>
+                {item.price_eur != null && (
+                  <span class="text-oxblood font-semibold tabular-nums shrink-0 text-sm">
+                    {formatPrice(item.price_eur)}
+                  </span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  ))}
+</div>
+
+<script is:inline>
+  (function () {
+    var tabs = document.querySelectorAll('.menu-tab');
+    var panels = document.querySelectorAll('.menu-panel');
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        tabs.forEach(function (t) { t.classList.remove('active'); });
+        panels.forEach(function (p) { p.classList.add('hidden'); });
+        tab.classList.add('active');
+        var panel = document.getElementById(tab.dataset.section);
+        if (panel) panel.classList.remove('hidden');
+      });
+    });
+  })();
+</script>

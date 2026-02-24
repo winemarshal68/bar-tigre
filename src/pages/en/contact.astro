@@ -1,0 +1,46 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MapEmbed from '../../components/MapEmbed.astro';
+import t from '../../i18n/en.json';
+---
+
+<Layout title={`${t.contact.title} · Bar León`} description={t.site.description} lang="en" page="contact" leafletMap>
+
+  <div class="hero-bg py-16 text-center">
+    <div class="ornament justify-center text-gold/60 mb-3">{t.home.hero_tagline}</div>
+    <h1 class="section-title-light text-center">{t.contact.title}</h1>
+  </div>
+
+  <section class="section-warm py-12 md:py-20">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">
+        <div class="space-y-8">
+          <div>
+            <p class="text-xs font-semibold tracking-widest uppercase text-oxblood mb-2">{t.contact.address_label}</p>
+            <p class="font-serif text-espresso text-2xl">{t.contact.address}</p>
+            <p class="text-mahogany/70 mt-1">{t.contact.near}</p>
+          </div>
+          <div>
+            <p class="text-xs font-semibold tracking-widest uppercase text-oxblood mb-2">{t.contact.hours_label}</p>
+            <p class="text-mahogany">{t.contact.hours}</p>
+          </div>
+          <div>
+            <p class="text-xs font-semibold tracking-widest uppercase text-oxblood mb-2">{t.contact.phone_label}</p>
+            <a href={t.contact.phone_href} class="font-serif text-2xl text-espresso hover:text-oxblood transition-colors duration-150">
+              {t.contact.phone}
+            </a>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-3 pt-2">
+            <a href={t.contact.phone_href} class="btn-primary text-center">📞 {t.home.cta_call}</a>
+            <a href={t.contact.whatsapp_href} target="_blank" rel="noopener noreferrer" class="btn-outline-dark text-center">WhatsApp</a>
+          </div>
+          <p class="text-sm text-mahogany/60 italic border-l-2 border-gold/40 pl-4">{t.contact.map_note}</p>
+        </div>
+        <div>
+          <MapEmbed address={t.contact.address} near={t.contact.near} mapNote={t.contact.map_note} />
+        </div>
+      </div>
+    </div>
+  </section>
+
+</Layout>

@@ -1,0 +1,77 @@
+{
+  "site": {
+    "title": "Restaurante Bar León · Granada",
+    "description": "Restaurante familiar en el corazón de Granada desde 1959. Cocina tradicional andaluza en Calle Pan, junto a Plaza Nueva."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Carta",
+    "contact": "Cómo llegar"
+  },
+  "home": {
+    "hero_tagline": "Granada · Desde 1959",
+    "hero_title": "El sabor de siempre,\nen el corazón de Granada",
+    "hero_body": "Restaurante Bar León lleva más de seis décadas siendo punto de encuentro para granadinos, cofrades y visitantes que buscan la cocina de toda la vida.",
+    "hero_cta_menu": "Ver la carta",
+    "hero_cta_location": "Cómo llegar",
+    "heritage_title": "Una historia de familia",
+    "heritage_body": "Fundado en 1959, Bar León sigue siendo un negocio familiar en Calle Pan, a dos pasos de Plaza Nueva. Generación tras generación, mantenemos la misma cocina de siempre: sencilla, honesta y granadina.",
+    "features": [
+      {
+        "title": "Cocina de siempre",
+        "body": "Raciones, tapas y platos de la carta elaborados con recetas tradicionales andaluzas. Sin artificios, con producto."
+      },
+      {
+        "title": "Casa de cofrades",
+        "body": "Punto de reunión en Semana Santa. Nuestro bar acoge desde hace décadas a hermandades y vecinos de Granada que hacen de este rincón su casa."
+      },
+      {
+        "title": "En el corazón de Granada",
+        "body": "C/ Pan 1, junto a Plaza Nueva. Un paso del Albaicín, de la Catedral, del río y de la vida misma de la ciudad."
+      }
+    ],
+    "cta_call": "Llamar",
+    "cta_whatsapp": "WhatsApp",
+    "cta_menu": "Ver la carta completa",
+    "cta_directions": "Cómo llegar"
+  },
+  "menu": {
+    "title": "Nuestra carta",
+    "subtitle": "Cocina tradicional andaluza",
+    "note": "Carta sujeta a cambios. Consulte disponibilidad en el local.",
+    "portion_label": "Porción",
+    "price_label": "Precio",
+    "sections": {
+      "Raciones y tapas": "Raciones y tapas",
+      "Bocadillos (no se sirven en el restaurante)": "Bocadillos",
+      "Carta restaurante": "Carta del restaurante",
+      "Carnes": "Carnes",
+      "Entremeses y sopas": "Entremeses y sopas",
+      "Huevos y tortillas": "Huevos y tortillas",
+      "Paellas (por encargo; mínimo 2 raciones)": "Paellas (por encargo, mín. 2)",
+      "Pescados": "Pescados",
+      "Postres": "Postres",
+      "Bebidas": "Bebidas",
+      "Bebidas (por copa)": "Bebidas (por copa)"
+    }
+  },
+  "contact": {
+    "title": "Cómo llegar",
+    "address_label": "Dirección",
+    "address": "C/ Pan 1, Granada",
+    "near": "Junto a Plaza Nueva · Granada centro",
+    "hours_label": "Horario",
+    "hours": "Consultar en el local",
+    "phone_label": "Teléfono",
+    "phone": "+34 958 22 51 43",
+    "phone_href": "tel:+34958225143",
+    "whatsapp_href": "https://wa.me/34958225143",
+    "map_note": "Aparcamiento más cercano: Parking Plaza Nueva",
+    "map_coords_note": "TODO: verificar coordenadas exactas — lat: 37.17719, lng: -3.59968"
+  },
+  "footer": {
+    "tagline": "Granada, desde 1959",
+    "address": "C/ Pan 1, Granada",
+    "rights": "Todos los derechos reservados"
+  }
+}

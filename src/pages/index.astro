@@ -1,0 +1,70 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import t from '../i18n/es.json';
+---
+
+<Layout title={t.site.title} description={t.site.description} lang="es" page="home">
+
+  <!-- Hero -->
+  <Hero
+    tagline={t.home.hero_tagline}
+    title={t.home.hero_title}
+    body={t.home.hero_body}
+    ctaMenu={t.home.hero_cta_menu}
+    ctaMenuHref="/menu"
+    ctaLocation={t.home.hero_cta_location}
+    ctaLocationHref="/contacto"
+    phone={t.contact.phone}
+    phoneHref={t.contact.phone_href}
+    ctaCall={t.home.cta_call}
+    whatsappHref={t.contact.whatsapp_href}
+    ctaWhatsapp={t.home.cta_whatsapp}
+  />
+
+  <!-- Heritage -->
+  <section class="section-warm py-16 md:py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      <div class="ornament justify-center text-oxblood/50 mb-4">
+        {t.home.hero_tagline}
+      </div>
+      <h2 class="section-title text-center">{t.home.heritage_title}</h2>
+      <p class="text-mahogany/80 text-lg leading-relaxed max-w-2xl mx-auto">
+        {t.home.heritage_body}
+      </p>
+    </div>
+  </section>
+
+  <!-- Feature cards -->
+  <section class="section-dark py-16 md:py-20">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {t.home.features.map((f) => (
+          <article class="border border-gold/20 p-6 hover:border-gold/50 transition-colors duration-200">
+            <h3 class="font-serif text-cream text-xl mb-3">{f.title}</h3>
+            <div class="w-8 h-px bg-gold/40 mb-3"></div>
+            <p class="text-cream/65 text-sm leading-relaxed">{f.body}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA strip -->
+  <section class="bg-oxblood py-12">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <p class="font-serif text-cream text-2xl md:text-3xl mb-6">
+        C/ Pan 1, Granada
+      </p>
+      <div class="flex flex-wrap justify-center gap-3">
+        <a href="/menu" class="btn-outline-light">
+          {t.home.cta_menu}
+        </a>
+        <a href="/contacto" class="bg-cream text-oxblood px-6 py-3 font-semibold tracking-wide hover:bg-parchment transition-colors duration-200">
+          {t.home.cta_directions}
+        </a>
+      </div>
+    </div>
+  </section>
+
+</Layout>

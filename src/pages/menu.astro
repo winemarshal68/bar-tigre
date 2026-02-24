@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MenuRenderer from '../components/MenuRenderer.astro';
+import t from '../i18n/es.json';
+---
+
+<Layout title={`${t.menu.title} · Bar León`} description={t.site.description} lang="es" page="menu">
+
+  <!-- Page hero -->
+  <div class="hero-bg py-16 text-center">
+    <div class="ornament justify-center text-gold/60 mb-3">{t.home.hero_tagline}</div>
+    <h1 class="section-title-light text-center">{t.menu.title}</h1>
+  </div>
+
+  <!-- Menu renderer -->
+  <div class="section-warm">
+    <MenuRenderer
+      lang="es"
+      sectionLabels={t.menu.sections}
+      note={t.menu.note}
+      subtitle={t.menu.subtitle}
+    />
+  </div>
+
+</Layout>

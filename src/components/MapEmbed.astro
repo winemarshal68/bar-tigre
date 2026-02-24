@@ -1,0 +1,43 @@
+---
+interface Props {
+  address: string;
+  near: string;
+  mapNote: string;
+}
+
+const { address, near, mapNote } = Astro.props;
+
+// TODO: verify exact coordinates with the client.
+// Approximate from address: C/ Pan 1, Granada (just behind Plaza Nueva).
+// Plaza Nueva: 37.1773, -3.5999 → C/ Pan is ~50m north.
+const LAT = 37.17759;
+const LNG = -3.59978;
+---
+
+<div id="map" class="w-full h-72 md:h-96 bg-parchment border border-tile" aria-label={`Mapa: ${address}`}></div>
+<p class="text-xs text-mahogany/50 mt-2 italic">{mapNote}</p>
+
+<script is:inline define:vars={{ LAT, LNG, address }}>
+  window.addEventListener('load', function () {
+    if (typeof L === 'undefined') return;
+
+    var map = L.map('map', { scrollWheelZoom: false }).setView([LAT, LNG], 17);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var icon = L.divIcon({
+      className: '',
+      html: '<div style="background:#8b1a1a;border:3px solid #f5efe6;border-radius:50%;width:18px;height:18px;box-shadow:0 2px 6px rgba(0,0,0,0.4)"></div>',
+      iconSize: [18, 18],
+      iconAnchor: [9, 9],
+    });
+
+    L.marker([LAT, LNG], { icon: icon })
+      .bindPopup('<strong style="font-family:Georgia,serif">Restaurante Bar León</strong><br>' + address)
+      .addTo(map)
+      .openPopup();
+  });
+</script>

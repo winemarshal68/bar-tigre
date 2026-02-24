@@ -1,0 +1,77 @@
+{
+  "site": {
+    "title": "Restaurante Bar León · Granada",
+    "description": "Family restaurant in the heart of Granada since 1959. Traditional Andalusian cuisine on Calle Pan, steps from Plaza Nueva."
+  },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "contact": "How to get here"
+  },
+  "home": {
+    "hero_tagline": "Granada · Since 1959",
+    "hero_title": "The taste of always,\nin the heart of Granada",
+    "hero_body": "Restaurante Bar León has been a gathering place for locals, pilgrims and visitors for over six decades — a kitchen that has never forgotten where it comes from.",
+    "hero_cta_menu": "View our menu",
+    "hero_cta_location": "How to get here",
+    "heritage_title": "A family story",
+    "heritage_body": "Founded in 1959, Bar León remains a family-run restaurant on Calle Pan, steps from Plaza Nueva in the historic heart of Granada. Generation after generation, the same cooking: simple, honest, Granadan.",
+    "features": [
+      {
+        "title": "Home cooking",
+        "body": "Tapas, half-portions and full plates made with traditional Andalusian recipes. No fuss, good produce."
+      },
+      {
+        "title": "A cofradía institution",
+        "body": "A beloved gathering point during Semana Santa (Holy Week). Brotherhood members and neighbours have been making this their home for generations."
+      },
+      {
+        "title": "In the heart of Granada",
+        "body": "C/ Pan 1, next to Plaza Nueva. A step from the Albaicín, the Cathedral and the living pulse of the city."
+      }
+    ],
+    "cta_call": "Call us",
+    "cta_whatsapp": "WhatsApp",
+    "cta_menu": "View the full menu",
+    "cta_directions": "How to get here"
+  },
+  "menu": {
+    "title": "Our menu",
+    "subtitle": "Traditional Andalusian cuisine",
+    "note": "Menu subject to change. Please ask at the restaurant for availability.",
+    "portion_label": "Portion",
+    "price_label": "Price",
+    "sections": {
+      "Raciones y tapas": "Tapas & half-portions",
+      "Bocadillos (no se sirven en el restaurante)": "Bocadillos (bar only)",
+      "Carta restaurante": "Restaurant menu",
+      "Carnes": "Meat dishes",
+      "Entremeses y sopas": "Starters & soups",
+      "Huevos y tortillas": "Eggs & omelettes",
+      "Paellas (por encargo; mínimo 2 raciones)": "Paella (to order, min. 2)",
+      "Pescados": "Fish",
+      "Postres": "Desserts",
+      "Bebidas": "Drinks",
+      "Bebidas (por copa)": "Drinks by the glass"
+    }
+  },
+  "contact": {
+    "title": "How to get here",
+    "address_label": "Address",
+    "address": "C/ Pan 1, Granada",
+    "near": "Next to Plaza Nueva · Granada city centre",
+    "hours_label": "Opening hours",
+    "hours": "Please contact the restaurant",
+    "phone_label": "Phone",
+    "phone": "+34 958 22 51 43",
+    "phone_href": "tel:+34958225143",
+    "whatsapp_href": "https://wa.me/34958225143",
+    "map_note": "Nearest car park: Parking Plaza Nueva",
+    "map_coords_note": "TODO: verify exact coordinates — lat: 37.17719, lng: -3.59968"
+  },
+  "footer": {
+    "tagline": "Granada, since 1959",
+    "address": "C/ Pan 1, Granada",
+    "rights": "All rights reserved"
+  }
+}

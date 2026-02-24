@@ -1,0 +1,77 @@
+{
+  "site": {
+    "title": "Restaurante Bar León · Grenade",
+    "description": "Restaurant familial au cœur de Grenade depuis 1959. Cuisine andalouse traditionnelle, Calle Pan, à deux pas de Plaza Nueva."
+  },
+  "nav": {
+    "home": "Accueil",
+    "menu": "Carte",
+    "contact": "Nous trouver"
+  },
+  "home": {
+    "hero_tagline": "Grenade · Depuis 1959",
+    "hero_title": "La saveur d'autrefois,\nau cœur de Grenade",
+    "hero_body": "Le Restaurante Bar León est un lieu de rencontre pour les Grenadins, les confréries et les visiteurs depuis plus de six décennies — une cuisine qui n'a jamais oublié d'où elle vient.",
+    "hero_cta_menu": "Voir la carte",
+    "hero_cta_location": "Nous trouver",
+    "heritage_title": "Une histoire de famille",
+    "heritage_body": "Fondé en 1959, Bar León est toujours une affaire familiale, Calle Pan, à deux pas de Plaza Nueva au cœur historique de Grenade. De génération en génération, la même cuisine : simple, honnête, andalouse.",
+    "features": [
+      {
+        "title": "Cuisine du quotidien",
+        "body": "Tapas, demi-portions et plats élaborés selon les recettes traditionnelles andalouses. Sans chichis, avec de bons produits."
+      },
+      {
+        "title": "Maison de confrérie",
+        "body": "Point de rendez-vous pendant la Semana Santa (Semaine Sainte). Les hermandades et les habitants de Grenade s'y retrouvent depuis des générations."
+      },
+      {
+        "title": "Au cœur de Grenade",
+        "body": "C/ Pan 1, à côté de Plaza Nueva. À un pas de l'Albaicín, de la Cathédrale et du pouls vivant de la ville."
+      }
+    ],
+    "cta_call": "Appeler",
+    "cta_whatsapp": "WhatsApp",
+    "cta_menu": "Voir la carte complète",
+    "cta_directions": "Nous trouver"
+  },
+  "menu": {
+    "title": "Notre carte",
+    "subtitle": "Cuisine andalouse traditionnelle",
+    "note": "Carte susceptible de modifications. Veuillez consulter le restaurant.",
+    "portion_label": "Portion",
+    "price_label": "Prix",
+    "sections": {
+      "Raciones y tapas": "Tapas et demi-portions",
+      "Bocadillos (no se sirven en el restaurante)": "Bocadillos (au bar)",
+      "Carta restaurante": "Carte du restaurant",
+      "Carnes": "Viandes",
+      "Entremeses y sopas": "Entrées et soupes",
+      "Huevos y tortillas": "Œufs et omelettes",
+      "Paellas (por encargo; mínimo 2 raciones)": "Paella (sur commande, min. 2)",
+      "Pescados": "Poissons",
+      "Postres": "Desserts",
+      "Bebidas": "Boissons",
+      "Bebidas (por copa)": "Boissons au verre"
+    }
+  },
+  "contact": {
+    "title": "Nous trouver",
+    "address_label": "Adresse",
+    "address": "C/ Pan 1, Grenade",
+    "near": "À côté de Plaza Nueva · Centre-ville de Grenade",
+    "hours_label": "Horaires",
+    "hours": "Veuillez contacter le restaurant",
+    "phone_label": "Téléphone",
+    "phone": "+34 958 22 51 43",
+    "phone_href": "tel:+34958225143",
+    "whatsapp_href": "https://wa.me/34958225143",
+    "map_note": "Parking le plus proche : Parking Plaza Nueva",
+    "map_coords_note": "TODO: vérifier les coordonnées exactes — lat: 37.17719, lng: -3.59968"
+  },
+  "footer": {
+    "tagline": "Grenade, depuis 1959",
+    "address": "C/ Pan 1, Grenade",
+    "rights": "Tous droits réservés"
+  }
+}

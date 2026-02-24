@@ -1,0 +1,3827 @@
+{
+  "restaurant": {
+    "name": "Restaurante Bar León",
+    "since": 1959,
+    "address": "C/ Pan 1, Granada",
+    "currency": "EUR",
+    "source_pdf": "CARTA REST. BAR LEÓN 2025.pdf",
+    "generated_on": "2026-02-20"
+  },
+  "allergens": {
+    "standard": "EU14",
+    "tags": [
+      "gluten",
+      "crustaceans",
+      "eggs",
+      "fish",
+      "peanuts",
+      "soy",
+      "milk",
+      "nuts",
+      "celery",
+      "mustard",
+      "sesame",
+      "sulphites",
+      "lupin",
+      "molluscs"
+    ],
+    "note": "Alergenos inferidos automáticamente a partir del nombre del plato/bebida; revisar y confirmar en cocina. Conectad vuestro DB para reemplazar/validar db_ids."
+  },
+  "items": [
+    {
+      "id": "9cadb644-e4a5-42bd-be62-bcbef57880a3",
+      "name_es": "Cordobés (carne en salsa)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 9.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "bbeef1dc-cab2-4c0d-82de-246f5d5108c2",
+      "name_es": "Cordobés (carne en salsa)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 12.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "0caff6d6-de76-4b7d-805d-81ca1bfd2ecf",
+      "name_es": "Riñones (al Jerez)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 9.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "88ca1707-c22c-430e-8454-de4ece56e0d5",
+      "name_es": "Riñones (al Jerez)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 12.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a8552eaa-0648-4a9a-980d-6220febd2e1e",
+      "name_es": "Callos",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 7.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "eeb6abec-69e6-4243-83e4-d3ceb8a4027a",
+      "name_es": "Callos",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 10.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a2bc0df7-2c4a-45ae-b986-73622524c6b9",
+      "name_es": "Criadillas (fritas)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 7.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f2dfec33-a094-4894-aa8c-d255b70ea31e",
+      "name_es": "Criadillas (fritas)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 10.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "063983c6-7b6f-4c10-bdcb-99d0bf996835",
+      "name_es": "Carne de monte (ciervo en adobo)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 10.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "b6662c9f-1830-488a-8113-39f4eed79b1a",
+      "name_es": "Carne de monte (ciervo en adobo)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 13.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "dfc2f645-ca54-43e2-8626-e6d4d7c5438f",
+      "name_es": "Sesos (fritos)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 7.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "91d2847c-3546-4e19-b673-91d63368509a",
+      "name_es": "Sesos (fritos)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 10.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "fc4d6a6f-e11b-4e17-bb00-116ce3152666",
+      "name_es": "Pinchitos",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "unidad",
+      "unit": "UNID.",
+      "price_eur": 4.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "e8c45563-46bf-402c-9de8-d5ec0a748151",
+      "name_es": "Gambas al Pil-Pil",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 10.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "2a99d235-26bc-451d-97d9-5807f742b94b",
+      "name_es": "Gambas al Pil-Pil",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "070dcd6e-9df0-4d94-bda5-b2b3e8481758",
+      "name_es": "Gambas fritas",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 10.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "02803f4e-d9cc-404d-b744-fef4099f9dbe",
+      "name_es": "Gambas fritas",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "527783bf-b31e-4622-977d-c0b73ef31954",
+      "name_es": "Calamares fritos",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 9.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "2c3554ee-1fe0-44e5-b092-ce87a7722f1c",
+      "name_es": "Calamares fritos",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "2d4bbd1a-bae1-4f1e-aed6-f19c2cd602a9",
+      "name_es": "Cazón frito en adobo",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 9.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "fish",
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "75986b35-0ee6-4e9a-8202-0dccc6f57f8b",
+      "name_es": "Cazón frito en adobo",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "fish",
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "4dbba4e3-1733-4dab-96ca-99e30b6dbdbe",
+      "name_es": "Almejas",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 9.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "574bca53-461b-467d-9378-d91eadb5ff5b",
+      "name_es": "Almejas",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "595bc13a-c659-44fd-beaa-08b8b1513b9e",
+      "name_es": "Chopos fritos (puntillitas)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 10.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "5fba76fe-e15d-4c15-814c-02e34add6c6f",
+      "name_es": "Chopos fritos (puntillitas)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "32b54b2e-52c8-4f93-9f2e-f43d6cc47d99",
+      "name_es": "Champiñón (salteado)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 7.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "cc373803-d80c-4d91-a64c-d5a35f65bd75",
+      "name_es": "Champiñón (salteado)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 10.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a9efceb8-b5b9-4b06-9bd2-3084ec560e34",
+      "name_es": "Boquerones fritos",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 9.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "fish",
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "9c4e34e5-4ab6-4905-88d3-c71ac0dad4c4",
+      "name_es": "Boquerones fritos",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "fish",
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "51775f63-3f1d-4cae-b4d7-4b8400fddb2e",
+      "name_es": "Ensaladilla rusa (con gambas)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 5.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans",
+          "eggs",
+          "fish",
+          "mustard"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "01ee0603-5283-467c-922b-b926f503b476",
+      "name_es": "Ensaladilla rusa (con gambas)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 8.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans",
+          "eggs",
+          "fish",
+          "mustard"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "b33f9448-c21f-4bb6-a960-4966e7f954ed",
+      "name_es": "Huevos fritos con patatas y jamón cebo ibérico (50%)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "0c279ab5-a243-48a7-8a2e-6445b256f8a7",
+      "name_es": "Habas con jamón cebo ibérico (50%) y huevo frito",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "5d6b27ba-0c85-48f9-8913-2152578f7617",
+      "name_es": "Entrecot de ternera (trinchado)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 19.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "c24cc0f1-52fd-4516-bafe-140fe619c4f8",
+      "name_es": "Solomillo de cerdo (trinchado)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 14.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "196a2d71-4fc0-4b2d-8299-6f311bd1ba12",
+      "name_es": "San Jacobo (trinchado)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 15.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "05c83863-fb72-4a55-afbc-8045ef6457c7",
+      "name_es": "Chuletas de cordero (mínimo 2 unid.)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "unidad",
+      "unit": "UNID.",
+      "price_eur": 2.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "607656bc-9c2e-476c-bf62-293db968268e",
+      "name_es": "Flamenquín",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "unidad",
+      "unit": "UNID.",
+      "price_eur": 5.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "4e63fd83-a6bb-4746-be30-eb67d30b04f8",
+      "name_es": "Croquetas (mínimo 2 unid.)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "unidad",
+      "unit": "UNID.",
+      "price_eur": 1.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "c1597a41-8435-4f3f-878b-65ee00b6be26",
+      "name_es": "Lomo salteado",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 10.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "96e8452c-0e8a-4309-a620-cf1aa342253f",
+      "name_es": "Lomo salteado",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "54b1a16f-cd0f-4fd2-b33d-1adce3878045",
+      "name_es": "Champiñones con gambas",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 11.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "6b79076e-f97a-4252-a8b8-cf8306acee36",
+      "name_es": "Champiñones con gambas",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 14.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "4398cf14-7ae0-415e-8ff3-5f5853355863",
+      "name_es": "Berenjenas fritas",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 8.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "2f88831f-4892-4ee1-a413-77de889b4b46",
+      "name_es": "Berenjenas fritas",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 11.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "b79dcbc8-22dc-495e-b920-08e3af13c069",
+      "name_es": "Fritura de pescado",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 17.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans",
+          "fish",
+          "gluten",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "dbe54222-a276-4ea4-9e26-518bcc9fc534",
+      "name_es": "Pulpo a la vinagreta",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 5.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "74dbc3aa-2a25-4092-a1d6-95a467f2b68d",
+      "name_es": "Pulpo a la vinagreta",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 8.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "0a01eb84-a485-413d-b5c1-b335cb7962b7",
+      "name_es": "Jamón cebo ibérico (50%)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 10.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "646f9953-17c5-4267-bf83-5ad51213af0a",
+      "name_es": "Jamón cebo ibérico (50%)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "90ac2496-cd86-4209-840d-f98241120510",
+      "name_es": "Queso curado",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 8.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "efd3335c-8643-4092-aa01-1a923aca82a3",
+      "name_es": "Queso curado",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 11.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f39a7cab-7a3c-4e76-94e5-efb3e85f3bb4",
+      "name_es": "Tomate aliñao",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "ración",
+      "unit": null,
+      "price_eur": 7.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "7767d413-9f1b-4433-ac87-7c081968346b",
+      "name_es": "Pincho de tortilla de patatas",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 3.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "429133b7-e237-451e-b610-b9aa455d375d",
+      "name_es": "Gazpacho andaluz (vaso)",
+      "section": "Raciones y tapas",
+      "subsection": null,
+      "portion": "media",
+      "unit": null,
+      "price_eur": 3.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "0759af24-9a00-4cbc-92fb-94b1a8ed442b",
+      "name_es": "Bocadillo de lomo con jamón o queso",
+      "section": "Raciones y tapas",
+      "subsection": "Bocadillos (no se sirven en el restaurante)",
+      "portion": "unidad",
+      "unit": null,
+      "price_eur": 4.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "4f67f13b-005e-4cb2-9d3e-e57619c1f7ce",
+      "name_es": "Bocadillo de lomo con jamón y queso",
+      "section": "Raciones y tapas",
+      "subsection": "Bocadillos (no se sirven en el restaurante)",
+      "portion": "unidad",
+      "unit": null,
+      "price_eur": 4.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a1a27bf8-67ec-46c5-9cc6-9aa59824935b",
+      "name_es": "Bocadillo de jamón o queso",
+      "section": "Raciones y tapas",
+      "subsection": "Bocadillos (no se sirven en el restaurante)",
+      "portion": "unidad",
+      "unit": null,
+      "price_eur": 3.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "6ea5a442-7faf-422f-ac6d-37c06e8c80fb",
+      "name_es": "Bocadillo “Junior” (lomo, jamón, queso, lechuga y mayonesa)",
+      "section": "Raciones y tapas",
+      "subsection": "Bocadillos (no se sirven en el restaurante)",
+      "portion": "unidad",
+      "unit": null,
+      "price_eur": 5.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten",
+          "milk",
+          "mustard"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "972f91a9-f800-43e9-92ee-b8b94795d07b",
+      "name_es": "Bocadillo de calamares",
+      "section": "Raciones y tapas",
+      "subsection": "Bocadillos (no se sirven en el restaurante)",
+      "portion": "unidad",
+      "unit": null,
+      "price_eur": 5.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "1b8cebd9-22b3-4659-a2e2-8174b523a9df",
+      "name_es": "Bocadillo trifásico (lomo, jamón, queso, lechuga, mayonesa, huevo)",
+      "section": "Raciones y tapas",
+      "subsection": "Bocadillos (no se sirven en el restaurante)",
+      "portion": "unidad",
+      "unit": null,
+      "price_eur": 6.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten",
+          "milk",
+          "mustard"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "d075e23a-cb50-4095-b45a-39e141af0bd8",
+      "name_es": "Tomate \"Aliñao\"",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 7.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "7b608425-85d2-4907-8a2b-bdb091527a20",
+      "name_es": "Salmorejo (en temporada)",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 5.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "3a695bfd-80db-4ffd-a53d-3ccc5b923b14",
+      "name_es": "Surtido de ibéricos",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 12.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "357761be-6079-4e6a-9929-6c0ff3b62615",
+      "name_es": "Ensalada de la casa",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 8.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "6c44eddf-027d-4784-b0a0-5c724f142502",
+      "name_es": "Queso curado (200 gr.)",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 11.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "127a3c72-09d6-4cd4-b206-86da06fdea2f",
+      "name_es": "Jamón cebo ibérico 50% (100 gr.)",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "dea28842-a75b-44a5-aee3-681e3993c660",
+      "name_es": "Espárragos con mahonesa",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 7.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "mustard"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "754c6dcf-e6a1-49da-8a75-4cb25da35002",
+      "name_es": "Ensaladilla rusa",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 8.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "fish",
+          "mustard"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "cf7f7a6e-a074-447b-9fbb-8287f3a22896",
+      "name_es": "Gazpacho andaluz",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 4.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f186d6e1-caa3-4ada-a272-4aad4c9bf819",
+      "name_es": "Sopa de mariscos",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 6.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans",
+          "fish",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "3cc08e5a-2a10-4d30-ae1e-502bde3b54fa",
+      "name_es": "Sopa de picadillo",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 5.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "46f29fa6-04e4-400d-8c65-b25cc1f64c43",
+      "name_es": "Sopa de ajos",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 6.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "cb711709-e089-40e5-a221-5b66fb90d028",
+      "name_es": "Sopa sevillana",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 7.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "fish"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "7179b4e0-a035-4ab8-9977-5cbed2d5b95e",
+      "name_es": "Consomé al Jerez",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 5.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "47e047f3-8978-413f-a2d0-da02ea6d0c2e",
+      "name_es": "Verduras salteadas",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 7.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "8af7dd09-e4ea-4a6a-a88b-c2b98f80e102",
+      "name_es": "Plato del día",
+      "section": "Carta restaurante",
+      "subsection": "Entremeses y sopas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 7.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": "Allergen tags dependen del plato del día."
+    },
+    {
+      "id": "8eed47be-1b67-4c1d-9128-2a1611b4cc5c",
+      "name_es": "Paella mixta (1 ración)",
+      "section": "Carta restaurante",
+      "subsection": "Paellas (por encargo; mínimo 2 raciones)",
+      "portion": null,
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans",
+          "fish",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "6f16627d-8b76-4212-a18d-8b9c00223560",
+      "name_es": "Paella de mariscos (1 ración)",
+      "section": "Carta restaurante",
+      "subsection": "Paellas (por encargo; mínimo 2 raciones)",
+      "portion": null,
+      "unit": null,
+      "price_eur": 15.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans",
+          "fish",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "3cc794c4-bf78-45be-9c93-0268ee398917",
+      "name_es": "Paella de verduras (1 ración)",
+      "section": "Carta restaurante",
+      "subsection": "Paellas (por encargo; mínimo 2 raciones)",
+      "portion": null,
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f8a819c7-a7a2-44cf-b86e-2638c8554970",
+      "name_es": "Presa ibérica",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "5ad822f8-38bf-4fa9-b4d6-ab252a0d0b52",
+      "name_es": "Escalope de ternera",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 12.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "d38de7b1-7ca4-4338-a0bf-ad98e39699ed",
+      "name_es": "San Jacobo",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 15.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "9acdea20-4851-4ad4-b69e-81490514da49",
+      "name_es": "Entrecot de ternera",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 19.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "394006b3-7a9b-43a0-955a-0fbcc2f97ad4",
+      "name_es": "Solomillo de cerdo",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 14.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "5eea425f-a0ba-4bc8-9874-0cfbe63d9c58",
+      "name_es": "Riñones al Jerez",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 12.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "ee3618e9-44f8-44e0-9c18-ce193cdcbf24",
+      "name_es": "Pollo",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 9.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a213f3a9-b23a-4347-a8ae-6ac523d7c377",
+      "name_es": "Croquetas",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 8.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "0d8963e8-f3a4-48c6-af42-efad8aed2037",
+      "name_es": "Callos",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 10.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "896f97ef-b63d-4e6e-973a-43e6f4e214b3",
+      "name_es": "Monte (ciervo en adobo)",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 13.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "63c36197-56fa-463b-b05f-7c74ce313740",
+      "name_es": "Habas con jamón ibérico (50%)",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "0dd9d672-2d02-4d88-b1ab-1d7918f9a283",
+      "name_es": "Solomillo de cerdo a la pimienta",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 15.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "ae4187be-b855-47cf-b291-c149fbdf62db",
+      "name_es": "Chuletas de cordero",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "1babc944-3397-43b2-a9ec-7dc9a5a47695",
+      "name_es": "Entrecot de ternera a la pimienta",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 20.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "df7238d9-8c38-40a1-9368-59e8aaa361b3",
+      "name_es": "Ternera estofada",
+      "section": "Carta restaurante",
+      "subsection": "Carnes",
+      "portion": null,
+      "unit": null,
+      "price_eur": 12.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "ef789429-0242-49c8-87d4-8aed2e38cf74",
+      "name_es": "Calamares fritos",
+      "section": "Carta restaurante",
+      "subsection": "Pescados",
+      "portion": null,
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "286c9d78-f249-4f21-9495-7d1730676709",
+      "name_es": "Calamares a la plancha",
+      "section": "Carta restaurante",
+      "subsection": "Pescados",
+      "portion": null,
+      "unit": null,
+      "price_eur": 16.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "b8c2875d-888b-495e-81b9-58e10b6b1364",
+      "name_es": "Boquerones fritos",
+      "section": "Carta restaurante",
+      "subsection": "Pescados",
+      "portion": null,
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "fish",
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "cd7413f4-2db7-400a-82fb-0142bc009c06",
+      "name_es": "Cazón frito en adobo",
+      "section": "Carta restaurante",
+      "subsection": "Pescados",
+      "portion": null,
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "fish",
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "9a224b86-2561-4006-8e1d-a031dc72d089",
+      "name_es": "Bacalao con tomate",
+      "section": "Carta restaurante",
+      "subsection": "Pescados",
+      "portion": null,
+      "unit": null,
+      "price_eur": 15.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "fish"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "9e456bfd-ea84-46d3-aef5-792ccf9ca3a4",
+      "name_es": "Filete de pez espada",
+      "section": "Carta restaurante",
+      "subsection": "Pescados",
+      "portion": null,
+      "unit": null,
+      "price_eur": 15.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "fish"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a565579e-4864-4d27-8ba8-68ba1e6dca94",
+      "name_es": "Fritura de pescado variado",
+      "section": "Carta restaurante",
+      "subsection": "Pescados",
+      "portion": null,
+      "unit": null,
+      "price_eur": 17.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans",
+          "fish",
+          "gluten",
+          "molluscs"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "74388ea4-ceaa-410d-b10c-4c0f3a633938",
+      "name_es": "Gambas fritas",
+      "section": "Carta restaurante",
+      "subsection": "Pescados",
+      "portion": null,
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f54fa232-2fea-42f2-94a1-70bb81b38557",
+      "name_es": "Gambas al Pil-Pil",
+      "section": "Carta restaurante",
+      "subsection": "Pescados",
+      "portion": null,
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "583ecea5-c886-4f8c-b986-8e6aa9bfdb20",
+      "name_es": "Par de huevos fritos, patatas con jamón cebo ibérico (50%)",
+      "section": "Carta restaurante",
+      "subsection": "Huevos y tortillas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 13.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "76d87ddf-4392-48c2-a82a-913bbdb0089c",
+      "name_es": "Tortilla de jamón",
+      "section": "Carta restaurante",
+      "subsection": "Huevos y tortillas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 6.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "00a7d866-74e4-4f32-b9d6-4a98ddc9d53b",
+      "name_es": "Tortilla de patatas",
+      "section": "Carta restaurante",
+      "subsection": "Huevos y tortillas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 8.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "270d7448-f86b-4f1b-a720-14c3ece2d7c9",
+      "name_es": "Tortilla \"Sacromonte\"",
+      "section": "Carta restaurante",
+      "subsection": "Huevos y tortillas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 10.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "30ed7f50-4113-499a-a1a7-b7a703cc33d4",
+      "name_es": "Revuelto de espárragos",
+      "section": "Carta restaurante",
+      "subsection": "Huevos y tortillas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 8.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "3a32869b-cb9a-4e00-97d0-0caf43af0e44",
+      "name_es": "Revuelto de gambas",
+      "section": "Carta restaurante",
+      "subsection": "Huevos y tortillas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 10.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "crustaceans",
+          "eggs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "3816204e-3b8d-4d32-ba34-ea3d527af733",
+      "name_es": "Revuelto de champiñón",
+      "section": "Carta restaurante",
+      "subsection": "Huevos y tortillas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 8.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs"
+        ],
+        "db_ids": [],
+        "confidence": "medium",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "39077824-0f52-4dc3-bde9-173e9208e715",
+      "name_es": "Patatas fritas",
+      "section": "Carta restaurante",
+      "subsection": "Huevos y tortillas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 4.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "d4db3ed0-b8e6-4aba-adec-2d3740533505",
+      "name_es": "Pan",
+      "section": "Carta restaurante",
+      "subsection": "Huevos y tortillas",
+      "portion": null,
+      "unit": null,
+      "price_eur": 0.6,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "60d1032e-f7df-4488-980b-e48901643e79",
+      "name_es": "Flan de la casa",
+      "section": "Carta restaurante",
+      "subsection": "Postres",
+      "portion": null,
+      "unit": null,
+      "price_eur": 4.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "02a822d8-498f-4061-9e64-bdf412dccd95",
+      "name_es": "Natillas de la casa",
+      "section": "Carta restaurante",
+      "subsection": "Postres",
+      "portion": null,
+      "unit": null,
+      "price_eur": 4.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "fe0e8023-9989-4c32-8487-04cf3eba9933",
+      "name_es": "Arroz con leche",
+      "section": "Carta restaurante",
+      "subsection": "Postres",
+      "portion": null,
+      "unit": null,
+      "price_eur": 4.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "31f9d103-a783-49a8-9660-a0dc7133fb0d",
+      "name_es": "Brownie",
+      "section": "Carta restaurante",
+      "subsection": "Postres",
+      "portion": null,
+      "unit": null,
+      "price_eur": 5.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "2e004d5e-504b-4995-85d0-49bfab824a95",
+      "name_es": "Fruta del tiempo",
+      "section": "Carta restaurante",
+      "subsection": "Postres",
+      "portion": null,
+      "unit": null,
+      "price_eur": 1.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "9c0aee9d-f044-47f1-a815-847dfda05679",
+      "name_es": "Sorbete de limón",
+      "section": "Carta restaurante",
+      "subsection": "Postres",
+      "portion": null,
+      "unit": null,
+      "price_eur": 4.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "83434ed4-57ef-43ea-bde5-7434dfe8876d",
+      "name_es": "Tarta de queso",
+      "section": "Carta restaurante",
+      "subsection": "Postres",
+      "portion": null,
+      "unit": null,
+      "price_eur": 5.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "71caa78e-4d36-4ce0-ac23-1a29234f225f",
+      "name_es": "Tarta al wiskey",
+      "section": "Carta restaurante",
+      "subsection": "Postres",
+      "portion": null,
+      "unit": null,
+      "price_eur": 5.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "eggs",
+          "gluten",
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "2c43b7e7-9b4c-4b1f-a0d8-10c516b03756",
+      "name_es": "Tarta canadá (contesa)",
+      "section": "Carta restaurante",
+      "subsection": "Postres",
+      "portion": null,
+      "unit": null,
+      "price_eur": 4.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "milk"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "7b55abf8-08f7-43a3-9852-d3b9729e2420",
+      "name_es": "Señorio de Nevada (Valle de Lecrín)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Vinos de Granada",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 20.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "845ccb51-d4b1-47ab-bda6-7b500c5656f7",
+      "name_es": "Calvente Guindalera (Jete)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Vinos de Granada",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 18.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "e05959dd-2b92-498c-851b-be9b98338fd1",
+      "name_es": "Fontedei Prado negro (crianza)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Vinos de Granada",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 17.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "0a3bb85f-69a9-405f-8c48-22d3a80462a5",
+      "name_es": "Delirio (joven de Muñana)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Vinos de Granada",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 17.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "2a4273fd-3e6a-4a59-be82-6a7283e64df6",
+      "name_es": "Muñana rojo",
+      "section": "Bebidas",
+      "subsection": "Tintos · Vinos de Granada",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 19.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "e32f0ac3-ff90-487a-8430-e12f9082aedf",
+      "name_es": "Muñana 3 cepas",
+      "section": "Bebidas",
+      "subsection": "Tintos · Vinos de Granada",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 21.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "83406977-e880-4036-a081-f2b0be48edb8",
+      "name_es": "Marqués de Cáceres (reserva)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Rioja",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 26.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "c5826558-7959-4549-a83c-abba46b7ca68",
+      "name_es": "Alcorta (crianza)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Rioja",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 18.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "416d114c-24ba-46b2-a288-22ccdbca7d83",
+      "name_es": "Marqués de Cáceres (crianza)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Rioja",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 19.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "006f6668-fe11-4099-b726-4a90938355dc",
+      "name_es": "Faustino (crianza)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Rioja",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 18.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "90f59a8c-1d10-4a5c-b5fb-1cc220f67a1b",
+      "name_es": "Antaño (crianza)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Rioja",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 17.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "7323b1a6-1561-4e2a-ae70-8858a418da82",
+      "name_es": "Yllera",
+      "section": "Bebidas",
+      "subsection": "Tintos · Ribera del Duero y Valladolid",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 18.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "fa0cf7c0-9604-4298-8c01-027f7fdcbdb5",
+      "name_es": "Protos (roble)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Ribera del Duero y Valladolid",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 19.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "8d8c2142-9561-4413-8bde-a0ce6151044b",
+      "name_es": "Valdesantos (roble)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Ribera del Duero y Valladolid",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 17.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "ba19fe73-a833-4051-b1b7-75a986bb0b33",
+      "name_es": "Castillo de Aza (crianza)",
+      "section": "Bebidas",
+      "subsection": "Tintos · Ribera del Duero y Valladolid",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 19.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a85c3af4-a70d-45ef-a57a-ffd331b83ae6",
+      "name_es": "Ribera de los Molinos",
+      "section": "Bebidas",
+      "subsection": "Tintos · Valdepeñas",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 7.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f31e8500-56d2-43ab-81e4-93893b6555ae",
+      "name_es": "Sangría (1 litro)",
+      "section": "Bebidas",
+      "subsection": "Sangría",
+      "portion": "1_litro",
+      "unit": null,
+      "price_eur": 14.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "317c44c9-9616-4f2e-9907-5447f19b9fa0",
+      "name_es": "Muñana",
+      "section": "Bebidas",
+      "subsection": "Rosados · Vinos de Granada",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 18.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "d1211d29-2501-4c33-ac6f-72b7f12d5187",
+      "name_es": "Calvente (Jete)",
+      "section": "Bebidas",
+      "subsection": "Blancos · Vinos de Granada",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 21.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "e264fa70-91ae-4a8e-93a7-e31c2ebd8368",
+      "name_es": "Xateo",
+      "section": "Bebidas",
+      "subsection": "Blancos · Vinos de Granada",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 18.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "910e5b04-a698-4ab0-8c9d-dfa16cf0028d",
+      "name_es": "Muñana Flamenco Semi",
+      "section": "Bebidas",
+      "subsection": "Blancos · Vinos de Granada",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 18.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "720decab-5a53-43a9-a266-66e1415427da",
+      "name_es": "D.O. Rueda (verdejo)",
+      "section": "Bebidas",
+      "subsection": "Blancos · Rueda",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 17.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "efaa88fb-aaab-439c-8480-f867c93c3afb",
+      "name_es": "Yllera 5.5 Frizzante",
+      "section": "Bebidas",
+      "subsection": "Blancos · Rueda",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 19.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "199ae597-0b93-4b01-ac95-524d6deca239",
+      "name_es": "Castillo de San Diego Barbadillo",
+      "section": "Bebidas",
+      "subsection": "Blancos · Andaluz",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 17.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "24008fe4-a658-4c1f-986c-79e3cc3b3a62",
+      "name_es": "Maestrante Semi Barbadillo",
+      "section": "Bebidas",
+      "subsection": "Blancos · Andaluz",
+      "portion": "botella_3_4",
+      "unit": null,
+      "price_eur": 17.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "81755cfc-0b44-4bbf-b087-cd25e4bc9a78",
+      "name_es": "Cava (20 cl.) (copa)",
+      "section": "Bebidas",
+      "subsection": "Cava",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 4.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "9f8d29ef-0b18-4d29-849d-fbc5edd18adf",
+      "name_es": "Fino o Manzanilla (copa)",
+      "section": "Bebidas",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "13704e74-7684-4ee6-b4cc-26828b4dec98",
+      "name_es": "Málaga (copa)",
+      "section": "Bebidas",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.6,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "b8d900fb-fcff-443a-a621-6d0149c2c771",
+      "name_es": "Martini (rojo/blanco)",
+      "section": "Bebidas",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.9,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a9458133-7641-4c0a-b12b-4c556aea85e1",
+      "name_es": "Cider (Ladrón de Manzanas)",
+      "section": "Bebidas",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.7,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "d136da78-5837-4f6e-80fe-e42c4c5b0f42",
+      "name_es": "Radler (Cruzcampo) 1/3",
+      "section": "Bebidas",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 2.9,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "14c28ad9-4a97-4845-ae2a-da9fee835fcd",
+      "name_es": "Heineken 1/3",
+      "section": "Bebidas",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "9bb9c5b8-dcc3-4945-a5a2-037d93e3e341",
+      "name_es": "Aguila 1/3",
+      "section": "Bebidas",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 2.9,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "44e46ed4-7f28-4720-a005-2c88866d6c6f",
+      "name_es": "Aguila sin filtrar",
+      "section": "Bebidas",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f343fa86-6e7f-4eb5-bbff-72d9fea20b9f",
+      "name_es": "Alcazar 1/3",
+      "section": "Bebidas",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "0d875219-95e9-456f-bd00-ed5e393d6fe3",
+      "name_es": "Alhambra Reserva 1925 1/3",
+      "section": "Bebidas",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "9531e175-0005-41d9-9e01-4bddfb04d5f7",
+      "name_es": "Sin 0,0 tostada 1/3",
+      "section": "Bebidas",
+      "subsection": "Cervezas (sin alcohol)",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 2.9,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "12d2582f-4c60-4801-af26-fff5cf417567",
+      "name_es": "Voll-Damm 1/3",
+      "section": "Bebidas",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "406014fc-7c8c-4d2c-ac77-42a90c1fd177",
+      "name_es": "Refrescos (coca, fanta, 7up…)",
+      "section": "Bebidas",
+      "subsection": "Refrescos",
+      "portion": "unidad",
+      "unit": null,
+      "price_eur": 2.6,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "595a2c96-edee-4d00-87b6-5176b0654ce0",
+      "name_es": "Agua mineral 1/2 L (con gas / sin gas)",
+      "section": "Bebidas",
+      "subsection": "Aguas",
+      "portion": "1/2L",
+      "unit": null,
+      "price_eur": 1.9,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "717d7d08-cf66-4715-9b53-630d434e78c7",
+      "name_es": "Agua mineral 1,25 L",
+      "section": "Bebidas",
+      "subsection": "Aguas",
+      "portion": "1.25L",
+      "unit": null,
+      "price_eur": 2.7,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "06972031-28d3-42ec-a326-1f92b54bf4fe",
+      "name_es": "Gaseosa 1 L",
+      "section": "Bebidas",
+      "subsection": "Aguas y gaseosas",
+      "portion": "1L",
+      "unit": null,
+      "price_eur": 2.9,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "6ead0cf5-dcff-4c27-a9a6-330ddd3ee69a",
+      "name_es": "Zumos de fruta",
+      "section": "Bebidas",
+      "subsection": "Zumos",
+      "portion": "unidad",
+      "unit": null,
+      "price_eur": 2.6,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "ed18b761-c4df-467d-b76d-4b321e10a1a5",
+      "name_es": "Veterano y similar",
+      "section": "Bebidas",
+      "subsection": "Brandys",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "597d40e3-5bb6-4ace-aa6b-c2efc17a19e6",
+      "name_es": "Magno",
+      "section": "Bebidas",
+      "subsection": "Brandys",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "d9326f1c-901d-40e9-87d3-81faac9ecf2a",
+      "name_es": "Cardenal Mendoza",
+      "section": "Bebidas",
+      "subsection": "Brandys",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 6.0,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a16e5565-1636-45b1-9902-6fb9e7b5e622",
+      "name_es": "Jarra 1/2 L de cerveza (Cruzcampo)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Cervezas",
+      "portion": "1/2L",
+      "unit": null,
+      "price_eur": 4.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "c22305a8-6e92-43c2-b450-605e44dfe528",
+      "name_es": "1/3 Radler Cruzcampo",
+      "section": "Bebidas (por copa)",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 2.9,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "98e98b83-f421-4abc-805d-7ba37c297455",
+      "name_es": "1/5 Cruzcampo especial",
+      "section": "Bebidas (por copa)",
+      "subsection": "Cervezas",
+      "portion": "1/5",
+      "unit": null,
+      "price_eur": 2.6,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "4555b129-4edb-4370-b513-f8e5c9cc1275",
+      "name_es": "1/3 Heineken",
+      "section": "Bebidas (por copa)",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "1c096112-5b2e-471e-9d25-d9b8f2d01cc8",
+      "name_es": "1/3 Alhambra especial",
+      "section": "Bebidas (por copa)",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 2.9,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "e8f44a7b-27c7-4a89-8019-8476f0af6c3a",
+      "name_es": "1/3 Alhambra Reserva 1925",
+      "section": "Bebidas (por copa)",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "690c022c-a3b4-48a4-9312-c3609788056b",
+      "name_es": "1/3 Aguila",
+      "section": "Bebidas (por copa)",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 2.9,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f1773b4e-08b6-44a1-85e6-efb7cee9924f",
+      "name_es": "1/3 Aguila sin filtrar",
+      "section": "Bebidas (por copa)",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "8c015438-638a-41cc-bf44-60f819801629",
+      "name_es": "1/3 Voll-Damm",
+      "section": "Bebidas (por copa)",
+      "subsection": "Cervezas",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f8984dbf-0b99-4d4c-8b1a-6edcb7890d09",
+      "name_es": "1/3 Tostada 0,0 sin alcohol",
+      "section": "Bebidas (por copa)",
+      "subsection": "Cervezas (sin alcohol)",
+      "portion": "1/3",
+      "unit": null,
+      "price_eur": 2.9,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "gluten"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "ca10ea79-3747-46af-a9a8-36d86e233bed",
+      "name_es": "Rioja crianza (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos tintos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "335009a5-32ce-469f-8853-a249b52ae645",
+      "name_es": "Ribera del Duero roble (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos tintos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "03bba8e7-1095-4c55-813b-34564ca4f8a7",
+      "name_es": "Muñana rojo (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos tintos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "81e8e5bd-411e-431e-8e24-672587d10ab5",
+      "name_es": "Señorio de Nevada (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos tintos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "1b18702b-6582-4ce0-86dd-a437d411ff68",
+      "name_es": "Delirio de Muñana (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos tintos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "460a75af-e5d9-4e89-a99b-3c116588a19d",
+      "name_es": "Fontedei Prado negro (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos tintos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "437f5a1c-1824-4d0d-9f68-396f09ca42e6",
+      "name_es": "Calvente Guindalera (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos tintos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.5,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a1d658c9-2772-453c-9403-af7facaadcd3",
+      "name_es": "Rueda (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos blancos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "4b747a6f-ca37-4abb-b76e-b2db8fc31558",
+      "name_es": "Barbadillo Castillo San Diego / Maestrante (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos blancos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "6fb79c6b-83c7-447b-a30e-ee5060729c0b",
+      "name_es": "Flamenco Semi (Muñana) (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos blancos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f3636ca5-a6ed-4a48-b9d7-642e211c923f",
+      "name_es": "Yllera 5.5 (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos blancos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.3,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "502ea60c-79b7-422a-bb47-b16c1120270c",
+      "name_es": "Calvente (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos blancos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.7,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f2b77c2e-eb21-444e-a3a0-5e86781baf02",
+      "name_es": "Muñana (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Vinos rosados",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 3.2,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "54c68bde-bf47-43b1-af7a-f2a4dc5b456a",
+      "name_es": "Fino (Jerez) (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "8e335acd-a15e-4af7-92c2-b7eecf57f7b8",
+      "name_es": "Manzanilla (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "f2458dba-02dd-4a7d-9da9-5df8e161bb18",
+      "name_es": "Vino dulce (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.6,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "33343f7b-f912-4b54-80d6-7e8884633517",
+      "name_es": "Solera 1947 / Alfonso (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.8,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "aa519e29-1824-42bd-8ab8-14ed8dc1e3e0",
+      "name_es": "Vermuth",
+      "section": "Bebidas (por copa)",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.7,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "b416e4f7-d02d-4596-a083-5b51c6965dd9",
+      "name_es": "Tinto de verano",
+      "section": "Bebidas (por copa)",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.6,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "be584168-553d-4e71-811e-0b887c446fdf",
+      "name_es": "Cider (Ladrón de Manzanas)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.7,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "low",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "a8613791-f3c6-425c-83f8-e0029349c78e",
+      "name_es": "Sangría (copa)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Aperitivos",
+      "portion": "copa",
+      "unit": null,
+      "price_eur": 2.6,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [
+          "sulphites"
+        ],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "ca30c608-36dd-4f0c-a5fb-db7df13b3a68",
+      "name_es": "Refrescos (coca cola, fanta, sprite...)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Refrescos",
+      "portion": "unidad",
+      "unit": null,
+      "price_eur": 2.7,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "2562f11e-ebfc-4b60-a494-8cea72194024",
+      "name_es": "Refrescos 300 ml (aquarius, nestea)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Refrescos",
+      "portion": "300ml",
+      "unit": null,
+      "price_eur": 2.6,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    },
+    {
+      "id": "713bba66-0a7f-4e94-bd82-5f13ec6c7f21",
+      "name_es": "Zumos (piña, melocotón o tomate)",
+      "section": "Bebidas (por copa)",
+      "subsection": "Zumos",
+      "portion": "unidad",
+      "unit": null,
+      "price_eur": 2.6,
+      "currency": "EUR",
+      "allergens": {
+        "inferred_tags": [],
+        "db_ids": [],
+        "confidence": "high",
+        "needs_confirmation": true
+      },
+      "notes": ""
+    }
+  ]
+}
