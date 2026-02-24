@@ -37,12 +37,18 @@ const titleLines = title.split('\n');
     </p>
 
     <!-- CTAs -->
-    <div class="flex flex-wrap justify-center gap-4">
-      <a href={ctaMenuHref} class="btn-primary text-base px-8 py-3">
-        {ctaMenu}
+    <div class="flex flex-wrap justify-center gap-10 mt-2">
+      <a href={ctaMenuHref}
+         class="text-gold tracking-widest uppercase text-sm font-semibold
+                border-b border-transparent hover:border-gold/60
+                transition-colors duration-200 pb-px">
+        {ctaMenu} &rarr;
       </a>
-      <a href={ctaLocationHref} class="btn-outline-light text-base px-8 py-3">
-        {ctaLocation}
+      <a href={ctaLocationHref}
+         class="text-cream/70 tracking-widest uppercase text-sm font-semibold
+                border-b border-transparent hover:border-cream/40
+                transition-colors duration-200 pb-px">
+        {ctaLocation} &rarr;
       </a>
     </div>
 
