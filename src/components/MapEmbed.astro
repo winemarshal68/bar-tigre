@@ -6,20 +6,12 @@ interface Props {
 
 const { address, lang = 'es' } = Astro.props;
 
-// Approximate coordinates for C/ Pan 1, Granada — just behind Plaza Nueva.
-// TODO: verify exact location with the client.
-const LAT = 37.17759;
-const LNG = -3.59978;
+const LAT  = 37.17699;
+const LNG  = -3.59655;
 const ZOOM = 17;
 
-// OSM iframe: bbox = west, south, east, north
-const d = 0.003;
-const bbox = `${LNG - d},${LAT - d},${LNG + d},${LAT + d}`;
-const iframeSrc = `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${LAT},${LNG}`;
-
-// Action links
-const osmUrl   = `https://www.openstreetmap.org/?mlat=${LAT}&mlon=${LNG}#map=${ZOOM}/${LAT}/${LNG}`;
-const dirUrl   = `https://www.openstreetmap.org/directions?to=${LAT},${LNG}`;
+const osmUrl = `https://www.openstreetmap.org/?mlat=${LAT}&mlon=${LNG}#map=${ZOOM}/${LAT}/${LNG}`;
+const dirUrl = `https://www.openstreetmap.org/directions?to=${LAT},${LNG}`;
 
 const labels = {
   es: { open: 'Abrir en OpenStreetMap', dir: 'Cómo llegar' },
@@ -29,20 +21,17 @@ const labels = {
 const lbl = labels[lang];
 ---
 
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  crossorigin=""
+/>
+
 <div class="space-y-3">
 
-  <!-- OSM iframe -->
-  <div class="border border-tile overflow-hidden">
-    <iframe
-      src={iframeSrc}
-      width="100%"
-      height="320"
-      style="border:0;display:block;"
-      loading="lazy"
-      referrerpolicy="no-referrer"
-      title={address}
-      aria-label={address}
-    ></iframe>
+  <!-- Map canvas -->
+  <div class="border border-tile overflow-hidden" style="height:320px">
+    <div id="bar-leon-map" style="height:100%;width:100%"></div>
   </div>
 
   <!-- Attribution -->
@@ -52,20 +41,48 @@ const lbl = labels[lang];
        class="hover:text-oxblood transition-colors duration-150">
       © OpenStreetMap contributors
     </a>
+    · © CARTO
   </p>
 
   <!-- Action links -->
   <div class="flex flex-wrap gap-3 pt-1">
-    <a href={osmUrl}
-       target="_blank" rel="noopener noreferrer"
+    <a href={osmUrl} target="_blank" rel="noopener noreferrer"
        class="btn-outline-dark text-sm px-4 py-2">
       {lbl.open}
     </a>
-    <a href={dirUrl}
-       target="_blank" rel="noopener noreferrer"
+    <a href={dirUrl} target="_blank" rel="noopener noreferrer"
        class="btn-primary text-sm px-4 py-2">
       {lbl.dir}
     </a>
   </div>
 
 </div>
+
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script is:inline>
+(function () {
+  var map = L.map('bar-leon-map', { scrollWheelZoom: false })
+              .setView([37.17699, -3.59655], 17);
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+    maxZoom: 19,
+  }).addTo(map);
+
+  // Oxblood pin marker
+  var pinSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="40" viewBox="0 0 28 40">'
+    + '<path d="M14 0C6.268 0 0 6.268 0 14c0 9.333 14 26 14 26S28 23.333 28 14C28 6.268 21.732 0 14 0z" fill="#8b1a1a"/>'
+    + '<circle cx="14" cy="14" r="6" fill="#f5efe6"/>'
+    + '</svg>';
+
+  var icon = L.divIcon({
+    html: pinSvg,
+    className: '',
+    iconSize:    [28, 40],
+    iconAnchor:  [14, 40],
+    popupAnchor: [0, -40],
+  });
+
+  L.marker([37.17699, -3.59655], { icon: icon }).addTo(map);
+})();
+</script>

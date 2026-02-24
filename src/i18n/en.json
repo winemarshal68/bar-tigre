@@ -67,7 +67,7 @@
     "phone_href": "tel:+34958225143",
     "whatsapp_href": "https://wa.me/34958225143",
     "map_note": "Nearest car park: Parking Plaza Nueva",
-    "map_coords_note": "TODO: verify exact coordinates — lat: 37.17719, lng: -3.59968"
+    "map_coords_note": "Verified coordinates: lat 37.17699, lng -3.59655"
   },
   "footer": {
     "tagline": "Granada, since 1959",
