@@ -42,8 +42,8 @@ const portionMap: Record<string, string> = {
   copa: lang === 'fr' ? 'verre' : lang === 'en' ? 'glass' : 'copa',
   botella: lang === 'fr' ? 'bouteille' : lang === 'en' ? 'bottle' : 'botella',
   jarra: lang === 'fr' ? 'pichet' : lang === 'en' ? 'jug' : 'jarra',
-  caña: 'caña',
-  tercio: 'tercio',
+  caña:   lang === 'fr' ? 'pression (petite)' : lang === 'en' ? 'draft (small)'  : 'caña',
+  tercio: lang === 'fr' ? 'bouteille 33 cl'   : lang === 'en' ? '330 ml bottle'  : 'tercio',
 };
 
 function portionLabel(p: string | null | undefined): string {

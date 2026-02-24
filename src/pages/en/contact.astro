@@ -4,7 +4,7 @@ import MapEmbed from '../../components/MapEmbed.astro';
 import t from '../../i18n/en.json';
 ---
 
-<Layout title={`${t.contact.title} · Bar León`} description={t.site.description} lang="en" page="contact" leafletMap>
+<Layout title={`${t.contact.title} · Bar León`} description={t.site.description} lang="en" page="contact">
 
   <div class="hero-bg py-16 text-center">
     <div class="ornament justify-center text-gold/60 mb-3">{t.home.hero_tagline}</div>
@@ -37,7 +37,7 @@ import t from '../../i18n/en.json';
           <p class="text-sm text-mahogany/60 italic border-l-2 border-gold/40 pl-4">{t.contact.map_note}</p>
         </div>
         <div>
-          <MapEmbed address={t.contact.address} near={t.contact.near} mapNote={t.contact.map_note} />
+          <MapEmbed address={t.contact.address} lang="en" />
         </div>
       </div>
     </div>

@@ -18,26 +18,39 @@
 }
 
 @layer components {
-  /* Hero background - warm espresso with tile texture overlay */
+  /* Hero background — dark warm espresso.
+     Layers (top→bottom):
+       1. Dark overlay for text legibility when photo is present
+       2. Hero photo slot — url() gracefully skipped by browser if 404
+       3. Warm oxblood ambient glow (always visible)
+       4. Warm gold ambient glow (always visible)
+     With a photo: overlay dims the photo, gradients add warmth at edges.
+     Without a photo: overlay + gradients = original textured dark bg. */
   .hero-bg {
     background-color: #1a0a06;
     background-image:
-      radial-gradient(ellipse at 20% 50%, rgba(139, 26, 26, 0.35) 0%, transparent 60%),
-      radial-gradient(ellipse at 80% 20%, rgba(201, 151, 90, 0.15) 0%, transparent 50%),
-      url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9975a' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      linear-gradient(to bottom, rgba(26, 10, 6, 0.42) 0%, rgba(26, 10, 6, 0.58) 100%),
+      url('/images/hero.jpg'),
+      radial-gradient(ellipse at 20% 50%, rgba(139, 26, 26, 0.38) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 20%, rgba(201, 151, 90, 0.15) 0%, transparent 55%);
+    background-size: auto, cover, auto, auto;
+    background-position: center, center, center, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   }
 
-  /* Section with warm parchment + subtle cross-hatch */
+  /* Warm parchment section — subtle radial warmth, no geometric patterns */
   .section-warm {
     background-color: #f5efe6;
-    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c9975a' fill-opacity='0.05'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+    background-image:
+      radial-gradient(ellipse at 15% 20%, rgba(201, 151, 90, 0.10) 0%, transparent 55%),
+      radial-gradient(ellipse at 85% 80%, rgba(139, 26, 26, 0.06) 0%, transparent 50%);
   }
 
-  /* Dark section (features) */
+  /* Dark mahogany section */
   .section-dark {
     background-color: #2c1810;
     background-image:
-      url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9975a' fill-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      radial-gradient(ellipse at 50% 0%, rgba(201, 151, 90, 0.09) 0%, transparent 65%);
   }
 
   .btn-primary {
