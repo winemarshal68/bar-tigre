@@ -34,16 +34,24 @@ function sectionLabel(key: string): string {
   return sectionLabels[key] ?? key;
 }
 
-// Portion label helper (keep in Spanish — it's on menus internationally)
+// Portion label helper.
+// Data uses fractional shorthand for beer sizes: 1/5 = caña (~200ml), 1/3 = tercio (330ml).
 const portionMap: Record<string, string> = {
-  media: lang === 'fr' ? 'demi' : lang === 'en' ? 'half' : 'media',
-  ración: lang === 'fr' ? 'portion' : lang === 'en' ? 'full' : 'ración',
-  unidad: lang === 'fr' ? 'unité' : lang === 'en' ? 'unit' : 'unidad',
-  copa: lang === 'fr' ? 'verre' : lang === 'en' ? 'glass' : 'copa',
-  botella: lang === 'fr' ? 'bouteille' : lang === 'en' ? 'bottle' : 'botella',
-  jarra: lang === 'fr' ? 'pichet' : lang === 'en' ? 'jug' : 'jarra',
-  caña:   lang === 'fr' ? 'pression (petite)' : lang === 'en' ? 'draft (small)'  : 'caña',
-  tercio: lang === 'fr' ? 'bouteille 33 cl'   : lang === 'en' ? '330 ml bottle'  : 'tercio',
+  media:        lang === 'fr' ? 'demi'              : lang === 'en' ? 'half'            : 'media',
+  ración:       lang === 'fr' ? 'portion'           : lang === 'en' ? 'full'            : 'ración',
+  unidad:       lang === 'fr' ? 'unité'             : lang === 'en' ? 'unit'            : 'unidad',
+  copa:         lang === 'fr' ? 'verre'             : lang === 'en' ? 'glass'           : 'copa',
+  botella:      lang === 'fr' ? 'bouteille'         : lang === 'en' ? 'bottle'          : 'botella',
+  jarra:        lang === 'fr' ? 'pichet'            : lang === 'en' ? 'jug'             : 'jarra',
+  // Actual values in menu JSON:
+  '1/5':        lang === 'fr' ? 'pression (petite)' : lang === 'en' ? 'draft (small)'   : 'caña (1/5 L)',
+  '1/3':        lang === 'fr' ? 'bouteille 33 cl'   : lang === 'en' ? '330 ml bottle'   : 'tercio (1/3 L)',
+  '1/2l':       lang === 'fr' ? '½ litre'           : lang === 'en' ? '½ liter'         : '1/2 L',
+  '1l':         lang === 'fr' ? '1 litre'           : lang === 'en' ? '1 liter'         : '1 L',
+  '1_litro':    lang === 'fr' ? '1 litre'           : lang === 'en' ? '1 liter'         : '1 litro',
+  '1.25l':      lang === 'fr' ? '1,25 litre'        : lang === 'en' ? '1.25 liter'      : '1,25 L',
+  '300ml':      '300 ml',
+  'botella_3_4':lang === 'fr' ? 'bouteille ¾'       : lang === 'en' ? '¾ bottle'        : 'botella 3/4',
 };
 
 function portionLabel(p: string | null | undefined): string {
