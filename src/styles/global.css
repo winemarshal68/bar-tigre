@@ -18,24 +18,14 @@
 }
 
 @layer components {
-  /* Hero background — dark warm espresso.
-     Layers (top→bottom):
-       1. Dark overlay for text legibility when photo is present
-       2. Hero photo slot — url() gracefully skipped by browser if 404
-       3. Warm oxblood ambient glow (always visible)
-       4. Warm gold ambient glow (always visible)
-     With a photo: overlay dims the photo, gradients add warmth at edges.
-     Without a photo: overlay + gradients = original textured dark bg. */
   .hero-bg {
     background-color: #1a0a06;
     background-image:
-      linear-gradient(to bottom, rgba(26, 10, 6, 0.42) 0%, rgba(26, 10, 6, 0.58) 100%),
-      url('/images/hero.jpg'),
-      radial-gradient(ellipse at 20% 50%, rgba(139, 26, 26, 0.38) 0%, transparent 60%),
-      radial-gradient(ellipse at 80% 20%, rgba(201, 151, 90, 0.15) 0%, transparent 55%);
-    background-size: auto, cover, auto, auto;
-    background-position: center, center, center, center;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+      linear-gradient(rgba(26, 10, 6, 0.7), rgba(26, 10, 6, 0.7)),
+      url('/images/hero.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   /* Warm parchment section — subtle radial warmth, no geometric patterns */
