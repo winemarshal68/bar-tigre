@@ -6,3 +6,8 @@ npm-debug.log*
 .env
 .env.production
 .DS_Store
+# Source images — not licensed for distribution
+images/*.png
+images/*.jpg
+images/*.jpeg
+images/*.webp
